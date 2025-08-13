@@ -50,12 +50,14 @@ une fois le bot créé cliquez sur Démarrer pour l'activer
 Une fois le bot créé, BotFather t’enverra un message contenant un token qui ressemble à :
 123456789:AAHgT9kQJkG1hFgS8nJz-Vd3uYygdjkfifh
 
-pour récupèrer ton token qui sera le meme pour les autres bots
-```
-`curl -s "https://api.telegram.org/botTON_TOKEN/getUpdates"
-```
-installation sur la machine ubuntu
+pour récupèrer ton chat ID qui sera le meme pour les autres bots
 
+Ouvre Telegram.
+Dans la barre de recherche, tape @userinfobot et ouvre la conversation officielle.
+Appuie sur Start (ou envoie /start).
+Le bot te renverra un message contenant tes infos, dont Your ID → c’est ton user ID Telegram.
+
+installation sur la machine ubuntu
 ```
 sudo apt update
 sudo apt install lm-sensors -y
